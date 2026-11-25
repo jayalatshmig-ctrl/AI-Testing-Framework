@@ -1,0 +1,67 @@
+{
+    "execution_time": "2026-11-25 22:57:37",
+    "total_tests": 4,
+    "passed": 3,
+    "failed": 1,
+    "review": 0,
+    "invalid": 0,
+    "errors": 0,
+    "test_results": [
+        {
+            "test_id": "CS001",
+            "test_type": "repeated",
+            "questions": [
+                "What is the capital of Japan?"
+            ],
+            "responses": [
+                "The capital of Japan is Tokyo.",
+                "The capital of Japan is Tokyo.",
+                "The capital of Japan is Tokyo."
+            ],
+            "result": "CONSISTENT"
+        },
+        {
+            "test_id": "CS002",
+            "test_type": "repeated",
+            "questions": [
+                "What is the boiling point of water at standard atmospheric pressure?"
+            ],
+            "responses": [
+                "At standard atmospheric pressure (which is defined as 1 atmosphere or 101.325 kilopascals), the boiling point of water is 100 degrees Celsius (or 212 degrees Fahrenheit).",
+                "At standard atmospheric pressure (which is defined as 1 atmosphere or 101.325 kilopascals), the boiling point of water is 100 degrees Celsius (or 212 degrees Fahrenheit).",
+                "At standard atmospheric pressure (which is defined as 1 atmosphere or 101.325 kilopascals), the boiling point of water is 100 degrees Celsius (or 212 degrees Fahrenheit)."
+            ],
+            "result": "CONSISTENT"
+        },
+        {
+            "test_id": "PC001",
+            "test_type": "paraphrase",
+            "questions": [
+                "What is the capital of India?",
+                "Which city serves as India's capital?",
+                "Name the capital city of India."
+            ],
+            "responses": [
+                "The capital of India is New Delhi.",
+                "India's capital is New Delhi.",
+                "The capital city of India is New Delhi."
+            ],
+            "result": "CONSISTENT"
+        },
+        {
+            "test_id": "PC002",
+            "test_type": "paraphrase",
+            "questions": [
+                "What is the boiling point of water?",
+                "At what temperature does water boil?",
+                "When does water reach its boiling point?"
+            ],
+            "responses": [
+                "The boiling point of water is 100 degrees Celsius at standard atmospheric pressure (1 atmosphere or 101.325 kilopascals), which is at sea level. At higher altitudes, where the atmospheric pressure is lower, the boiling point of water is lower.",
+                "The boiling point of water varies depending on the atmospheric pressure. Here are a few key points:\n\n1. At sea level, water boils at 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure.\n\n2. At higher altitudes, where the atmospheric pressure is lower, water boils at a lower temperature. For example, at 3,000 meters (about 9,840 feet) above sea level, the boiling point of water is approximately 94 degrees Celsius (201 degrees Fahrenheit).\n\n3. At very high altitudes, the boiling point can be even lower. For instance, at 5,000 meters (about 16,400 feet) above sea level, the boiling point of water is around 90 degrees Celsius (194 degrees Fahrenheit).\n\n4. In very low-pressure environments, such as in a pressurized environment like a pressurized aircraft or a high-pressure laboratory, water can boil at temperatures below 100 degrees Celsius.\n\n5. In a vacuum, water can boil at temperatures well below 100 degrees Celsius.\n\nIt's important to note that these are general guidelines, and the exact boiling point can be affected by other factors such as the purity of the water and the presence of dissolved substances.",
+                "Water reaches its boiling point at standard atmospheric pressure (1 atmosphere or 101.325 kilopascals) under standard temperature conditions (0 degrees Celsius or 32 degrees Fahrenheit). At this point, water transitions from a liquid state to a gaseous state, forming steam or water vapor.\n\nHowever, the boiling point of water can vary depending on the atmospheric pressure. Here are a few key points:\n\n1. **Standard Atmospheric Pressure (1 atmosphere)**: At 100 degrees Celsius (212 degrees Fahrenheit).\n2. **Higher Atmospheric Pressure**: For example, at higher altitudes, where the atmospheric pressure is lower, water boils at a lower temperature. For instance, at sea level, water boils at 100 degrees Celsius, but at 2,000 meters (6,562 feet) altitude, water boils at approximately 94 degrees Celsius.\n3. **Lower Atmospheric Pressure**: At very low pressures, such as in a pressurized chamber or under vacuum conditions, water can boil at temperatures below 100 degrees Celsius.\n\nUnderstanding these conditions is crucial in various applications, such as cooking, industrial processes, and scientific experiments."
+            ],
+            "result": "INCONSISTENT"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+
+[
+    {
+        "test_id": "CS001",
+        "test_type": "repeated",
+        "question": "What is the capital of Japan?",
+        "num_responses": 3
+    },
+    {
+        "test_id": "CS002",
+        "test_type": "repeated",
+        "question": "What is the boiling point of water at standard atmospheric pressure?",
+        "num_responses": 3
+    },
+    {
+        "test_id": "PC001",
+        "test_type": "paraphrase",
+        "questions": [
+            "What is the capital of India?",
+            "Which city serves as India's capital?",
+            "Name the capital city of India."
+        ]
+    },
+    {
+        "test_id": "PC002",
+        "test_type": "paraphrase",
+        "questions": [
+            "What is the boiling point of water?",
+            "At what temperature does water boil?",
+            "When does water reach its boiling point?"
+        ]
+    }
+]

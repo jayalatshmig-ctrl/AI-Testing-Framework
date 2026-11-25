@@ -1,0 +1,26 @@
+[
+    {
+        "test_id": "LJ001",
+        "question": "What are three benefits of drinking water?",
+        "required_elements": [
+            "regulates body temperature",
+            "supports digestion",
+            "supports joint health"
+        ]
+    },
+    {
+        "test_id": "LJ002",
+        "question": "What is the capital of Japan?",
+        "required_elements": [
+            "Tokyo"
+        ]
+    },
+    {
+        "test_id": "LJ003",
+        "question": "Explain two benefits of regular exercise.",
+        "required_elements": [
+            "improves heart health",
+            "helps manage weight"
+        ]
+    }
+]
